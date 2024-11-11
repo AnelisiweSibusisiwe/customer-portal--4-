@@ -1,8 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Banking Portal
 
-## Available Scripts
+A basic payment processing app built with Node.js, Express, and React. Uses Mongodb. It demonstrates user registration, login, and a simplified payment handling system. 
+
+
+
+## Group Members
+
+ - Cameron Reese Davaniah - ST10083712
+ - Anelisiwe Sibusisiwe Ngema - ST10165561
+ - Asanda Qwabe - ST10083934
+## Features
+
+- User Authentication: Register and log in securely.
+- Payment Processing: Process payments with simple validation.
+- SSL Certificate
+- Employee Portal
+- Customer Portal
+- Login & Register for the customer user.
+- API for handling user authentication and customer payment transactions.
+- Password security enforced using bcrypt for hashing and salting.
+- Input validation using RegEx patterns to whitelist user inputs.
+- All traffic is served over SSL for secure communication.
+
+## Installation
+
+- Download Visual Studio Code (Blue)
+- Press Open Folder > Open Customer-Portal Folder
+- Open Terminal and run application
+## Running the app
+
+To run app (go to top of the screen 
+
+ terminal > new terminal 
+
+cd backend > node server.js (make sure it says connected to local host)✅ leave it opened 
+
+
+Open a new terminal > cd frontend > npm start and it will automatically opened up and the data will save into the database (make sure to refresh)
+## Resources and References
+- IIE's APDS7311 Lab Guide 2024
+- Chatgbt (AI TOOL)
+- https://www.youtube.com/watch?v=vhsy9PPypP8
+- IIEVC School of Computer Science https://www.youtube.com/watch?V=4Cyzx5rhLU ->CircleCi and SonarQube
+- https://www.youtube.com/watch?vUSrMdBFOzcg -> How to generate and use a SSL certificate in Nodejs
+
+
+
 
 In the project directory, you can run:
 
