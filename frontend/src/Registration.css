@@ -1,0 +1,55 @@
+/* Registration.css */
+.registration-container {
+    background-color: #001f3f; /* Dark blue background */
+    color: white; /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px; /* Increased width */
+    margin: 50px auto; /* Center the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Center the text content */
+}
+
+.registration-title {
+    font-size: 24px; /* Increase title size */
+    font-weight: bold; /* Make title bold */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements */
+    align-items: center; /* Center form elements horizontally */
+    width: 100%; /* Take up full width of the container */
+}
+
+label {
+    margin: 10px 0 5px; /* Add space between label and input */
+    align-self: flex-start; /* Align labels to the left */
+    width: 80%; /* Make labels match the input width */
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Space between input fields */
+    width: 80%; /* Make input field thinner */
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px; /* Smaller padding for smaller button */
+    width: 40%; /* Match button width to input fields */
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken button on hover */
+}
+
+
+

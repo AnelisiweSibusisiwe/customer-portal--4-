@@ -1,0 +1,52 @@
+.payment-container {
+    background-color: #001F3F; /* Change to your registration background color */
+    color: white; /* Text color for better visibility */
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px; /* Adjusted container width */
+    margin: 0 auto; /* Center the container */
+}
+
+.payment-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2em; /* Make the title size smaller */
+}
+
+.input-container {
+    margin: 10px 0; /* Reduced margin for spacing between input containers */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+label {
+    display: block; /* Keep it as block for vertical stacking */
+    margin-bottom: 5px; /* Space between label and input */
+    font-size: 0.9em; /* Make the label size smaller */
+    text-align: center; /* Center the text */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width for input fields */
+    padding: 6px; /* Decrease padding for a smaller input box */
+    border: none;
+    border-radius: 5px;
+    height: 20px; /* Set a slightly larger height for input fields */
+}
+
+button {
+    background-color: #007BFF; /* A distinct button color */
+    color: white;
+    padding: 10px 20px; /* Keep padding for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%; /* Set button width to 40% */
+    display: block; /* Ensure the button takes the defined width */
+    margin: 20px auto 0; /* Center the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
